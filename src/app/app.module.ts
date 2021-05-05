@@ -4,11 +4,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SliderComponent } from './slider/slider.component';
+import { FeaturedFoodComponent } from './featured-food/featured-food.component';
+import { ChefsComponent } from './chefs/chefs.component';
+import { SocialFeedComponent } from './social-feed/social-feed.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SliderComponent
+    SliderComponent,
+    FeaturedFoodComponent,
+    ChefsComponent,
+    SocialFeedComponent
   ],
   imports: [
     BrowserModule,
