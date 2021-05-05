@@ -7,6 +7,7 @@ import { SliderComponent } from './slider/slider.component';
 import { FeaturedFoodComponent } from './featured-food/featured-food.component';
 import { ChefsComponent } from './chefs/chefs.component';
 import { SocialFeedComponent } from './social-feed/social-feed.component';
+import { OurProductsComponent } from './our-products/our-products.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SocialFeedComponent } from './social-feed/social-feed.component';
     SliderComponent,
     FeaturedFoodComponent,
     ChefsComponent,
-    SocialFeedComponent
+    SocialFeedComponent,
+    OurProductsComponent
   ],
   imports: [
     BrowserModule,

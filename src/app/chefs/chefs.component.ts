@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {chefs} from '../mocks/index';
 
 @Component({
   selector: 'app-chefs',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ChefsComponent implements OnInit {
 
-  constructor() { }
+  chefsList=  chefs;
+
+  constructor() {
+  
+   }
 
   ngOnInit(): void {
   }
