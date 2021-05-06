@@ -1,0 +1,22 @@
+
+.slider-content {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://preview.colorlib.com/theme/meal/images/slider-1.jpg");
+    background-size: cover;
+}
+    .h1 {
+      font-size: 70px;
+      font-weight: 700;
+      line-height: 1.2;
+      color: #ffff;
+      font-family: playfair display,serif;
+    }
+
+button.slider-content--cta {
+
+    border: 2px solid #ffff;
+    background: 0 0;
+    color: #ffff;
+    text-decoration: none;
+}
