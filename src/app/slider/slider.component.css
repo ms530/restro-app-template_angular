@@ -4,6 +4,7 @@
     height: 100vh;
     background-image: url("https://preview.colorlib.com/theme/meal/images/slider-1.jpg");
     background-size: cover;
+    background-color: rgba(0, 0, 0.3);
 }
     .h1 {
       font-size: 70px;
@@ -19,4 +20,7 @@ button.slider-content--cta {
     background: 0 0;
     color: #ffff;
     text-decoration: none;
+    letter-spacing: .2em;
+    font-size: 14px;
+    font-weight: 700;
 }

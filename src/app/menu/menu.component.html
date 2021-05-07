@@ -1,4 +1,12 @@
-<div class="menu position-absolute">
+<button class="menu-toggler" (click)="toggleMenu()">
+    <div class="container" (click)=" myFunction(this)" [ngClass]="{'change': changed}">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+</button>
+
+<div class="menu position-fixed" [ngClass]="{'site-menu-show': showMenu}">
     <ul>
         <li>
             <p>Lorem, ipsum.</p>

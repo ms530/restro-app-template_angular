@@ -6,10 +6,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./menu.component.css']
 })
 export class MenuComponent implements OnInit {
+showMenu:boolean = false;
+changed:boolean= false;
 
   constructor() { }
 
   ngOnInit(): void {
   }
+toggleMenu() {
+this.showMenu = !this.showMenu;
+}
+ myFunction(x) {
+  this.changed = !this.changed;
+}
 
 }
